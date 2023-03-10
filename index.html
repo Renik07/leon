@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leon</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="spin">
+      <div class="spin__container">
+        <img
+          class="spin__logo"
+          src="img/logo.png"
+          alt="Leon logo"
+          width="147"
+          height="37"
+        />
+        <h2 class="spin__subtitle">Gira la rueda y gana</h2>
+        <h1 class="spin__title"><span>fantásticos premios</span></h1>
+        <div class="spin__wheel-out">
+          <div class="spin__wheel-inner">
+            <img
+              class="spin__wheel-img"
+              src="img/wheel-inner.png"
+              alt=""
+              width="642"
+              height="642"
+            /><img
+              class="spin__plashka"
+              src="img/plashka.png"
+              alt=""
+              width="260"
+              height="350"
+            />
+            <div class="spinner">
+              <div class="section" id="section1"></div>
+              <div class="section" id="section2"></div>
+              <div class="section" id="section3"></div>
+              <div class="section" id="section4"></div>
+              <div class="section" id="section5"></div>
+              <div class="section" id="section6"></div>
+              <div class="section" id="section7"></div>
+              <div class="section" id="section8"></div>
+            </div>
+            <button class="spin__button">
+              <img src="img/button.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <picture class="spin__girl"
+          ><source media="(max-width: 835px)" srcset="img/girl-mobile.png" />
+          <img src="img/girl.png" alt="Girl" width="838" height="794" />
+        </picture>
+      </div>
+      <div class="popup">
+        <div class="popup__content">
+          <div class="popup__block">
+            <img class="popup__img" src="img/popup-win.png" alt="" />
+            <div class="popup__title">Ganaste!</div>
+            <div class="popup__text">Te espera un bonode hasta S/.1,000!</div>
+            <button class="popup__button">Llevar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
