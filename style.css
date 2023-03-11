@@ -1,3 +1,53 @@
+@font-face { 
+	font-family: "Uni Sans";
+	src: local("UniSansBold"),
+		url("fonts/UniSansBold.woff") format("woff"), 
+		url("fonts/UniSansBold.ttf") format("ttf");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face { 
+	font-family: "Uni Sans";
+	src: local("UniSansHeavy"),
+		url("fonts/UniSansHeavy.woff") format("woff"), 
+		url("fonts/UniSansHeavy.ttf") format("ttf");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face { 
+	font-family: "Uni Sans";
+	src: local("UniSansHeavyItalic"),
+		url("fonts/UniSansHeavyItalic.woff") format("woff"), 
+		url("fonts/UniSansHeavyItalic.ttf") format("ttf");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face { 
+	font-family: "Uni Sans";
+	src: local("UniSansRegular"),
+		url("fonts/UniSansRegular.woff") format("woff"), 
+		url("fonts/UniSansRegular.ttf") format("ttf");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face { 
+	font-family: "Uni Sans";
+	src: local("UniSansSemiBold"),
+		url("fonts/UniSansSemiBold.woff") format("woff"), 
+		url("fonts/UniSansSemiBold.ttf") format("ttf");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
